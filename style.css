@@ -1,0 +1,169 @@
+.can {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+#o1 {
+    position: absolute;
+    top: 120px;
+    left: 650px;
+    color: white;
+    font-size: 40pt;
+    font-weight: bold;
+    font-family: "MotorolaOnScreen"
+}
+
+#w {
+    position: absolute;
+    top: 130px;
+    left: 820px;
+    width: 40px;
+    font-size: 20pt;
+}
+
+#o2 {
+    position: absolute;
+    top: 120px;
+    left: 910px;
+    color: white;
+    font-size: 40pt;
+    font-weight: bold;
+    font-family: "MotorolaOnScreen"
+}
+
+#h {
+    position: absolute;
+    top: 130px;
+    left: 1080px;
+    width: 40px;
+    font-size: 20pt;
+}
+
+#ch1 {
+    position: absolute;
+    top: 80px;
+    left: 650px;
+    font-size: 20pt;
+}
+
+#ch_1 {
+    position: absolute;
+    top: 65px;
+    left: 680px;
+    color: white;
+    font-size: 40pt;
+    font-weight: bold;
+    font-family: "MotorolaOnScreen"
+}
+
+#ch2 {
+    position: absolute;
+    top: 80px;
+    left: 850px;
+    font-size: 20pt;
+}
+
+#ch_2 {
+    position: absolute;
+    top: 65px;
+    left: 880px;
+    color: white;
+    font-size: 40pt;
+    font-weight: bold;
+    font-family: "MotorolaOnScreen"
+}
+
+#rules {
+    position: absolute;
+    top: 190px;
+    left: 650px;
+    color: white;
+    font-size: 40pt;
+    font-weight: bold;
+    font-family: "MotorolaOnScreen"
+}
+
+#name {
+    position: absolute;
+    top: 10px;
+    left: 650px;
+    color: rgb(115, 18, 19);
+    font-size: 45pt;
+    font-weight: bold;
+    font-family: "MotorolaOnScreen"
+}
+
+#Gen1 {
+    width: 300px;
+    height: 100px;
+    border-color: rgb(115, 18, 19);
+    border-width: 10px;
+    background-color: rgb(200, 200, 200);
+    font-size: 40pt;
+    font-weight: bold;
+    color: rgb(115, 18, 19);
+    font-family: "MotorolaOnScreen";
+    position: absolute;
+    top: 490px;
+    left: 650;
+
+}
+
+#Del1 {
+    width: 300px;
+    height: 100px;
+    border-color: rgb(115, 18, 19);
+    border-width: 10px;
+    background-color: rgb(200, 200, 200);
+    font-size: 40pt;
+    font-weight: bold;
+    color: rgb(115, 18, 19);
+    font-family: "MotorolaOnScreen";
+    position: absolute;
+    top: 490px;
+    left: 965;
+}
+
+.Win {
+    display: none;
+    padding: 10px;
+    height: 300px;
+    width: 680px;
+    border-color: rgb(115, 18, 19);
+    border-width: 10px;
+    border-style: solid;
+    font-size: 50pt;
+    font-weight: bold;
+    background-color: rgb(200, 200, 200);
+    color: rgb(0, 0, 0);
+    font-family: "MotorolaOnScreen";
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+
+.res {
+    position: absolute;
+    left: 150px;
+    width: 300px;
+    height: 100px;
+    border-color: rgb(100, 100, 100);
+    border-width: 10px;
+    background-color: rgb(200, 200, 200);
+    font-size: 40pt;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: "MotorolaOnScreen";
+}
+
+input {
+    outline: none;
+}
+
+@font-face {
+    font-family: "MotorolaOnScreen";
+    src: url("16803.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

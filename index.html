@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>Game</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body background="f1.png">
+    <canvas height='600' width='600' id='holst' class="can">Обновите браузер</canvas>
+    <img class="can" id="img" src="fon.gif">
+    <span id="name">Сделайте свой Лабиринт!</span>
+    <span id="o1">Ширина</span><input type="text" maxLength=2 size="5" id="w" value=30>
+    <span id="o2">Высота</span><input type="text" maxLength=2 size="5" id="h" value=30>
+    <span id="rules">Размеры лабиринта могут быть в пределах от 2x2 до 30x30. Ваша цель прийти из верхнего левого угла в правый нижний. При касании границ вы проигрываете.
+    </span>
+    <input type="button" id="Gen1" value="Generate" onclick=GenerateLabirint();>
+    <input type="button" id="Del1" value="Delete" onclick=DeleteLabirint();>
+    <input type="radio" id="ch1" name="Algo" value="Ellers"><span id="ch_1">Ellers</span>
+    <input type="radio" id="ch2" name="Algo" value="Krasckals" checked="checked"><span id="ch_2">Kraskals</span>
+    <div class="Win" id="Win1">Поздравляю. Вы выиграли:)
+        <p><input type="button" class="res" value="Вернуться" onclick="NewGame();"></p>
+    </div>
+    <div class="Win" id="Lost1">К сожалению, Вы проиграли:(
+        <p><input type="button" class="res" value="Вернуться" onclick="NewGame();"></p>
+    </div>
+    <div class="Win" id="Error1">Упс. Введите правильные значения.
+        <p><input type="button" class="res" value="Ок." onclick="NewGame();"></p>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
